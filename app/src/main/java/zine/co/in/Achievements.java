@@ -1,0 +1,65 @@
+package zine.co.in;
+
+import android.graphics.PorterDuff;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+
+import it.moondroid.coverflow.components.ui.containers.FeatureCoverFlow;
+
+public class Achievements extends AppCompatActivity {
+
+    int[] image_array = new int[]{
+
+            R.layout.ac1,
+            R.layout.ac11,
+            R.layout.ac12,
+            R.layout.ac13,
+            R.layout.ac14,
+            R.layout.ac15,
+            R.layout.ac16,
+            R.layout.ac3,
+            R.layout.ac7,
+            R.layout.ac5,
+            R.layout.ac9,
+            R.layout.ac4,
+            R.layout.ac10,
+            R.layout.ac6,
+            R.layout.ac8
+    };
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.achievements);
+
+        FeatureCoverFlow coverFlow;
+        MovieAdapter movieAdapter;
+        Toolbar toolbar =findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        Objects.requireNonNull(getSupportActionBar()).setTitle("Achievements");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        Objects.requireNonNull(toolbar.getNavigationIcon()).setColorFilter(getResources().getColor(R.color.white), PorterDuff.Mode.SRC_ATOP);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
+            }
+        });
+
+        movieAdapter=new MovieAdapter(this,image_array);
+        coverFlow=findViewById(R.id.coverflow);
+
+        coverFlow.setAdapter(movieAdapter);
+
+
+    }
+
+}

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="#F5F5F5"
+    android:layout_marginBottom="50dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp">
+
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rect"
+            android:hint="@string/cid"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:padding="7dp"
+            android:textColorHint="#9E9E9E"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rect"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:hint="@string/name"
+            android:textColorHint="#9E9E9E"
+            android:textSize="16sp"
+            android:padding="7dp"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/editText1"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rect"
+            android:hint="@string/mno"
+            android:textSize="16sp"
+            android:padding="7dp"
+            android:inputType="numberSigned"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textColorHint="#9E9E9E"
+            android:layout_below="@+id/editText2"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rect"
+            android:hint="@string/email"
+            android:textSize="16sp"
+            android:padding="7dp"
+            android:textColorHint="#9E9E9E"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_below="@+id/editText3"
+            android:textColor="#000"/>
+
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText4"
+            android:id="@+id/rl1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/rect">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="16sp"
+                android:text="@string/hostel"
+                android:padding="7dp"
+                android:id="@+id/hostel"
+                android:textColor="#000"
+                android:gravity="center"/>
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@+id/hostel"
+                android:layout_toEndOf="@+id/hostel"
+                android:padding="7dp"
+                android:entries="@array/items"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_below="@+id/rl1"
+            android:background="@drawable/rect">
+
+            <TextView
+                android:id="@+id/branch"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="7dp"
+                android:text="@string/branch"
+                android:textColor="#000"
+                android:textSize="16sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/branch"
+                android:padding="7dp"
+                android:entries="@array/item" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/uid"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center"
+            android:padding="7dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+
+            android:textSize="16sp"
+            android:layout_below="@+id/rl2"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rec"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:layout_below="@id/uid"
+            android:elevation="3dp"
+            android:id="@+id/bt1"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="@string/register"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
+            />
+
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

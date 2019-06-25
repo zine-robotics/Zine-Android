@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="#F5F5F5"
+    android:layout_marginBottom="50dp"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp">
+
+        
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rect"
+            android:hint="@string/cid"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:padding="7dp"
+            android:textColorHint="#9E9E9E"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000"
+            />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rect"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:hint="@string/name"
+            android:textColorHint="#9E9E9E"
+            android:textSize="16sp"
+            android:padding="7dp"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/editText"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rect"
+            android:ems="10"
+            android:hint="@string/mno"
+            android:textSize="16sp"
+            android:padding="7dp"
+            android:inputType="numberSigned"
+            android:textColorHint="#9E9E9E"
+            android:layout_below="@+id/editText2"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/rect"
+            android:ems="10"
+            android:hint="@string/query"
+            android:textSize="16sp"
+            android:padding="7dp"
+            android:textColorHint="#9E9E9E"
+            android:layout_below="@+id/editText3"
+            android:textColor="#000"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/uid"
+            android:layout_width="match_parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center"
+            android:padding="7dp"
+
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_below="@+id/editText4"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rec"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:layout_below="@id/uid"
+            android:elevation="3dp"
+            android:id="@+id/bt2"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="@string/submit_query"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
+            />
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

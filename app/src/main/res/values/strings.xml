@@ -1,0 +1,83 @@
+<resources>
+        <string name="app_name">ZINE</string>
+        <string name="tag_line">Where Imagination Leads To Creation</string>
+        <string name="about">Robotics and Research Group</string>
+        <string name="workshop">Workshop</string>
+        <string name="team">Team</string>
+        <string name="achievements">Achievements</string>
+        <string name="projects">Projects</string>
+        <string name="action_settings">Settings</string>
+        <string name="cid">College ID</string>
+        <string name="name">Name</string>
+        <string name="mno">Mobile Number</string>
+        <string name="query">Query</string>
+        <string name="submit_query">Submit Query</string>
+        <string name="email">Email ID</string>
+        <string name="hostel">Hosteller :</string>
+        <string name="branch">Branch :</string>
+        <string name="register">Register</string>
+        <string name="image">Image</string>
+        <string name="zteam">Zine Team</string>
+        <string name="team_2">2nd</string>
+        <string name="team_3">3rd</string>
+        <string name="team_4">4th</string>
+        <string name="year">Year</string>
+        <string name="mno1">Mobile No. : </string>
+        <string name="vishal">Vishal</string>
+        <string name="vno">9909435279</string>
+        <string name="tanishk">Tanishk</string>
+        <string name="tno">8947892024</string>
+        <string name="parth">Paarth</string>
+        <string name="pno">9871856190</string>
+        <string name="akarth">Akarth</string>
+        <string name="ano">8529539248</string>
+        <string name="tanmay">Tanmay</string>
+        <string name="tno1">9680389686</string>
+        <string name="vibhor">Vibhor</string>
+        <string name="vno1">7053559011</string>
+        <string name="keshav">Keshav</string>
+        <string name="kno">7073474054</string>
+        <string name="sumit">Sumit</string>
+        <string name="sno">9812244847</string>
+        <string name="rahul">Rahul</string>
+        <string name="rno">9119212945</string>
+        <string name="devno">9636080788</string>
+        <string name="kriti">9828042882</string>
+        <string name="dev">Devnath</string>
+        <string name="kriti_name">Kriti</string>
+        <string name="me"> ME</string>
+        <string name="ece">ECE</string>
+        <string name="cse">CSE</string>
+        <string name="call">Call</string>
+        <string-array name="item">
+            <item>Computer Science and Engineering</item>
+            <item>Electronics and Communication Engineering</item>
+            <item>Electrical Engineering</item>
+            <item>Mechanical Engineering</item>
+            <item>Chemical Engineering</item>
+            <item>Civil Engineering</item>
+            <item>Metallurgical and Materials Engineering</item>
+            <item>Architecture</item>
+        </string-array>
+        <string-array name="items">
+            <item>Yes</item>
+            <item>No</item>
+        </string-array>
+        <string name="about_zine">Zine is a creative group of engineering undergraduates of Malaviya National Institute of Technology, Jaipur who are together to learn, improve and apply their technical skills to help foster the growth of society and India in the field of technology by utilising their engineering skills to work on real time problems. It is comprised of students from various disciplines. Zine has been the only active robotics and Reasearch group of MNIT for the last 10 years, since its foundation. We have participated in various National and International events related to the multitude of fields, have done the core research with publishing research articles in reputed publications like IEEE journals etc.</string>
+        <string name="title_activity_info">About</string>
+        <string name="second_year">Second Year</string>
+        <string name="tab_text_1">Zine</string>
+        <string name="tab_text_2">Mentor</string>
+
+        <string-array name="array_name">
+            <item>Tanishk</item>
+            <item>Vishal</item>
+            <item>Paarth</item>
+            <item>Akarth</item>
+            <item>Tanmay</item>
+            <item>Vibhor</item>
+            <item>Keshav</item>
+            <item>Sumit</item>
+            <item>Rahul</item>
+        </string-array>
+</resources>

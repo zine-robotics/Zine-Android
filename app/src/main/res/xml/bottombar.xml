@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tab xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/home"
+        activeColor="@color/bottom"
+        titleSize="4dp"
+        title="Home"
+        />
+    <tab
+        id="@+id/tab_faq"
+        icon="@drawable/faq"
+        activeColor="@color/bottom"
+        titleSize="4dp"
+        title="FAQs"
+        />
+    <tab
+        id="@+id/tab_query"
+        icon="@drawable/forum"
+        activeColor="@color/bottom"
+        titleSize="4dp"
+        title="Query"
+        />
+
+    <tab
+        id="@+id/tab_contact"
+        icon="@drawable/phone"
+        activeColor="@color/bottom"
+        titleSize="4dp"
+        title="Contact Us"
+        />
+    <tab
+        id="@+id/tab_register"
+        icon="@drawable/account_plus"
+        activeColor="@color/bottom"
+        titleSize="4dp"
+        title="Register"
+        />
+</Tab>

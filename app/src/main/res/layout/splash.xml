@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:gravity="center"
+    >
+
+    <com.felipecsl.gifimageview.library.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:id="@+id/gifImageView"/>
+
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/logo_without_shadow"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:id="@+id/imageview"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:fontFamily="@font/transformer"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textColor="@color/logo_color"
+        android:text="@string/tag_line"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="5dp"
+        android:src="@drawable/blue_faded"
+        android:scaleType="fitXY"
+        android:layout_marginTop="4dp"/>
+
+    </LinearLayout>

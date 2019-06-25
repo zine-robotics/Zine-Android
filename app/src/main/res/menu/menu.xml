@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.app.zine.zine.ScrollingActivity">
+    <item
+        android:id="@+id/insta"
+        android:orderInCategory="100"
+        android:icon="@drawable/instagram"
+        app:showAsAction="ifRoom"
+        android:title="Instagram Page" />
+
+
+    <item
+        android:id="@+id/fb"
+        android:orderInCategory="100"
+        android:icon="@drawable/facebook_box"
+        app:showAsAction="ifRoom"
+        android:title="Facebook Page" />
+    <item
+        android:id="@+id/ws"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/earth"
+        android:title="Website" />
+
+</menu>
