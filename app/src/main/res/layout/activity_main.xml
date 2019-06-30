@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".ScrollingActivity"
+    tools:context=".MainActivity"
     android:id="@+id/layout"
     android:background="#F5F5F5"
     >
@@ -74,8 +74,8 @@
         android:windowSoftInputMode="adjustPan"
         android:elevation="4dp"
         app:bb_tabXmlResource="@xml/bottombar"
-        >
-    </com.roughike.bottombar.BottomBar>
+        />
+
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
