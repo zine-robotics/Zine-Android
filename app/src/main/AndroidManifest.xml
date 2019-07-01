@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.app.zine.zine">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -40,43 +41,43 @@
         </activity>
 
         <activity
-            android:name="com.app.zine.zine.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
         <activity
-            android:name="com.app.zine.zine.Second"
+            android:name=".Second"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.app.zine.zine.Third"
+            android:name=".Third"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.app.zine.zine.Fourth"
+            android:name=".Fourth"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.app.zine.zine.Team"
+            android:name=".Team"
             android:theme="@style/mydialog" />
         <activity
-            android:name="com.app.zine.zine.InfoActivity"
+            android:name=".InfoActivity"
             android:label="@string/title_activity_info"
             android:theme="@style/AppTheme.NoActionBar" />
 
-        <activity android:name="com.app.zine.zine.Workshop"
+        <activity android:name=".Workshop"
             android:label="@string/workshop"
             />
-        <activity android:name="com.app.zine.zine.Achievements"
+        <activity android:name=".Achievements"
             android:label="@string/achievements"
             android:theme="@style/AppTheme.NoActionBar"
             />
 
-        <activity android:name="com.app.zine.zine.Project"
+        <activity android:name=".Project"
             android:label="@string/projects"
             />
 
 
 
-        <service android:name="com.app.zine.zine.MyFirebaseMessagingService">
+        <service android:name=".MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
