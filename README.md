@@ -1,8 +1,9 @@
-<p align="center">
+<p align="center">  
 <img src="Screenshots/ic_launcher.png">
 
 # ZINE
 </p>
+<a target="_blank" href='https://play.google.com/store/apps/details?id=com.app.zine.zine&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width="200"/></a>
 An App designed for the Zine Workshop 2018. The App includes Registration, Query, and Information regarding the current projects and the past achievements.
 
 <img src="Screenshots/1.png" width="200">   <img src="Screenshots/2.png" width="200">   <img src="Screenshots/3.png" width="200">  <img src="Screenshots/4.png" width="200">
