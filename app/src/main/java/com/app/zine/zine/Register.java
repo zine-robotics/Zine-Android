@@ -63,7 +63,7 @@ public class Register extends Fragment {
         final ProgressDialog progressDialog;
         progressDialog = new ProgressDialog(getContext(), R.style.MyAlertDiallogStyle);
         // final String HttpUrl = "https://testzineapp.000webhostapp.com/insert_record.php";
-        final String HttpUrl = "http://zine.co.com.app.zine.zine/insert2k18.php";
+        final String HttpUrl = "http://zine.co.in/W2k19/insert2k19.php";
 
 
         b.setOnClickListener(new View.OnClickListener() {
@@ -85,7 +85,7 @@ public class Register extends Fragment {
                     txt1.setError("College ID empty!");
                     focusView=txt1;
                     focusView.requestFocus();
-                } else if (!((idc.length() == 11 && (idc.startsWith("2018u")||idc.startsWith("2017u")))||(idc.length() == 12 && (idc.startsWith("2018ku")||idc.startsWith("2017ku"))) )) {
+                } else if (!((idc.length() == 11 && idc.startsWith("2019u"))||(idc.length() == 12 && idc.startsWith("2019ku")) )){
                     txt1.setError("College ID incorrect!");
                     focusView=txt1;
                     focusView.requestFocus();

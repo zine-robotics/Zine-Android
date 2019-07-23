@@ -59,7 +59,7 @@ public class Query extends Fragment{
         final ProgressDialog progressDialog;
         progressDialog = new ProgressDialog(getContext(), R.style.MyAlertDiallogStyle);
 
-    final String HttpUrl = "http://zine.co.com.app.zine.zine/qinsert2k18.php";
+    final String HttpUrl = "http://zine.co.in/W2k19/qinsert2k19.php";
 
 
 
