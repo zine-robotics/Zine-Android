@@ -37,7 +37,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Android is fast emerging as the most used OS on mobile phones. Acquiring the skills of creating basic apps for the same in the lecture, you can nurture them further and who knows we may all be using your app soon! \nImage processing is being applied in many fields in today's world like automotive sector, robotics, gaming, etc."/>
+            android:text="Android is fast emerging as the most used OS on mobile phones. Acquiring the skills of creating basic apps for the same in the lecture, you can nurture them further and who knows we may all be using your app soon!"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
