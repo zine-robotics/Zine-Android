@@ -30,7 +30,7 @@
             android:layout_marginRight="25dp"
             android:layout_centerHorizontal="true"
             android:textColor="#000"
-            />
+            android:maxLength="12"/>
 
         <EditText
             android:id="@+id/editText2"
@@ -63,7 +63,8 @@
             android:inputType="numberSigned"
             android:textColorHint="#9E9E9E"
             android:layout_below="@+id/editText2"
-            android:textColor="#000"/>
+            android:textColor="#000"
+            android:maxLength="10"/>
 
         <EditText
             android:id="@+id/editText4"

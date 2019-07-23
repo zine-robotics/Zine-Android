@@ -47,7 +47,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Introduction to MATLAB Software\nUses\nApplication in Various Fields\nImage Processing\nSimulation"/>
+            android:text=" • Introduction to MATLAB\n • Variables\n • Operators\n • Arrays and matrices\n • Graphs\n • Image processing\n • Simulink"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Vishal\nSumit"/>
+            android:text="&#x2713; Akash\n&#x2713; Charu\n&#x2713; Harsh"/>
     </LinearLayout>
 
 </ScrollView>

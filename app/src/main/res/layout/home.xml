@@ -45,13 +45,13 @@
                     android:contentDescription="Team"
                     android:layout_gravity="center"
                     android:src="@drawable/account_multiple"
-
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/team"
-                    android:textSize="18sp"/>
+                    android:textSize="20sp"
+                    android:textColor="#000"/>
             </LinearLayout>
 
             <LinearLayout
@@ -81,7 +81,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/achievements"
-                    android:textSize="18sp"/>
+                    android:textSize="20sp"
+                    android:textColor="#000"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -120,13 +121,13 @@
                     android:layout_gravity="center"
                     android:contentDescription="Projects"
                     android:id="@+id/project"
-
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/projects"
-                    android:textSize="18sp"/>
+                    android:textSize="20sp"
+                    android:textColor="#000"/>
             </LinearLayout>
 
             <LinearLayout
@@ -158,7 +159,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/workshop"
-                    android:textSize="18sp"/>
+                    android:textSize="20sp"
+                    android:textColor="#000"/>
             </LinearLayout>
         </LinearLayout>
 

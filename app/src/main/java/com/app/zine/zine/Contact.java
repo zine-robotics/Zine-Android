@@ -26,10 +26,10 @@ public class Contact extends Fragment{
         assert vt != null;
 
 
-        CardView i=vt.findViewById(R.id.tanishk);
-        CardView i1=vt.findViewById(R.id.vishal);
-        CardView i2=vt.findViewById(R.id.devnath);
-        CardView i3=vt.findViewById(R.id.kriti);
+        CardView i=vt.findViewById(R.id.bhanu);
+        CardView i1=vt.findViewById(R.id.nikita);
+        CardView i2=vt.findViewById(R.id.vishal);
+        CardView i3=vt.findViewById(R.id.devnath);
 
 
         i.setOnLongClickListener(new View.OnLongClickListener() {
@@ -63,7 +63,7 @@ public class Contact extends Fragment{
         i.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url="tel:918947892024";
+                String url="tel:+917625803158";
                 Intent i=new Intent(Intent.ACTION_DIAL, Uri.parse(url));
                 startActivity(i);
             }
@@ -71,7 +71,7 @@ public class Contact extends Fragment{
         i1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url="tel:919909435279";
+                String url="tel:+918941078579";
                 Intent i=new Intent(Intent.ACTION_DIAL,Uri.parse(url));
                 startActivity(i);
             }
@@ -79,7 +79,7 @@ public class Contact extends Fragment{
         i2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url="tel:919636080788";
+                String url="tel:+919909435279";
                 Intent i=new Intent(Intent.ACTION_DIAL,Uri.parse(url));
                 startActivity(i);
             }
@@ -87,7 +87,7 @@ public class Contact extends Fragment{
         i3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url="tel:919828042882";
+                String url="tel:+919636080788";
                 Intent i=new Intent(Intent.ACTION_DIAL,Uri.parse(url));
                 startActivity(i);
             }

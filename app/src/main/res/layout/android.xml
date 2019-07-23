@@ -13,7 +13,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Android"
+            android:text="App Development"
             android:textSize="35sp"
             android:textColor="#424242"
             android:textStyle="bold"
@@ -27,7 +27,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="You will be taught the basics of making an Android App using the official Android Studio IDE."/>
+            android:text="You will be taught the basics of making an Android App using the official Android Studio IDE. This will be followed by basics of image processing techniques using python libraries."/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Android is fast emerging as the most used OS on mobile phones. Acquiring the skills of creating basic apps for the same in the lecture, you can nurture them further and who knows we may all be using your app soon!"/>
+            android:text="Android is fast emerging as the most used OS on mobile phones. Acquiring the skills of creating basic apps for the same in the lecture, you can nurture them further and who knows we may all be using your app soon! \nImage processing is being applied in many fields in today's world like automotive sector, robotics, gaming, etc."/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Operating Sytem of Phones\nWhat is Android ?\nAndroid Development\nAndroid Layouts\nDeveloping your own Android App"/>
+            android:text=" • Operating System of Phones\n • What is Android ?\n • Android Development\n • Android Layouts\n • Developing your own Android App"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Paarth\nSumit"/>
+            android:text="&#x2713; Dhruv\n&#x2713; Charu\n&#x2713; Saransh\n&#x2713; Muskan"/>
     </LinearLayout>
 
 </ScrollView>

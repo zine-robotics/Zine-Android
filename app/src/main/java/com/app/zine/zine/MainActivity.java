@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.ws) {
-            String url="http://www.zine.co.com.app.zine.zine";
+            String url="http://zine.co.in";
             Intent i= new Intent(Intent.ACTION_VIEW);
             i.setData(Uri.parse(url));
             startActivity(i);

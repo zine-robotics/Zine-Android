@@ -52,13 +52,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/team_2"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/year"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold"/>
         </LinearLayout>
 
         <LinearLayout
@@ -78,13 +80,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/team_3"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/year"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold"/>
         </LinearLayout>
 
         <LinearLayout
@@ -104,13 +108,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/team_4"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/year"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold"/>
         </LinearLayout>
     </LinearLayout>
 

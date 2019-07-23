@@ -17,7 +17,7 @@
             android:text="Tech Expo 2014,\nMNIT Jaipur"
             android:textColor="#FFFFFF"
             android:gravity="center_horizontal"
-            />
+            android:textStyle="bold"/>
 
 
     </LinearLayout>
@@ -31,7 +31,7 @@
             android:layout_height="match_parent"
             android:gravity="center_horizontal"
             android:text="➯ 1st prize Smart-Copter, Mechanical Category\n\n➯ 1st prize Solar Tracker, Electronics Category\n\n➯ 1st prize Interactive Smartboard\n\n➯ 2nd prize Robo Hand, Open Category\n\n➯ 2nd prize Bus Lane with Intermitent priority, Civil Category"
-            android:textColor="#E0E0E0"
+            android:textColor="#FFFFFF"
             android:textSize="11sp"
             />
     </LinearLayout>

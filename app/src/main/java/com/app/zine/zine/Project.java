@@ -14,8 +14,18 @@ import me.crosswall.lib.coverflow.core.LinkagePagerContainer;
 import me.crosswall.lib.coverflow.core.PageItemClickListener;
 
 public class Project extends AppCompatActivity {
-    public static int[] covers = {R.mipmap.hand,R.mipmap.chair,R.mipmap.quad,R.mipmap.arm,R.mipmap.gait,R.mipmap.hci,R.mipmap.sun,R.mipmap.exo,R.mipmap.grid};
-
+    public static int[] covers = {
+            R.mipmap.bci,
+            R.mipmap.quad,
+            R.mipmap.chair,
+            R.mipmap.arm,
+            R.mipmap.gait,
+            R.mipmap.hci,
+            R.mipmap.sun,
+            R.mipmap.grid,
+            R.mipmap.exo,
+            R.mipmap.hand
+    };
 
     private LinkagePager pager;
 

@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/design_grad5"
+    android:background="@drawable/design_grad3"
     android:padding="10dp">
     <LinearLayout
         android:orientation="vertical"
@@ -16,7 +16,8 @@
             android:text="Research Papers"
             android:textColor="#FFFFFF"
             android:gravity="center_horizontal"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textStyle="bold"/>
 
     </LinearLayout>
     <LinearLayout
@@ -30,7 +31,7 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:text="➯ Short Term Load Forecasting using Artificial Neural Networks: Jatin Verma\n\n➯ A robust technique for detection of P300 signals: Satvik Shah, Anirudha Kumar\n\n➯ Classification of mental tasks from EEG data using backtracking, search optimization based Neurocomputing"
-            android:textColor="#E0E0E0"
+            android:textColor="#FFFFFF"
             android:textSize="12sp" />
     </LinearLayout>
 

@@ -37,7 +37,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="You can go on to become a white or grey hat hacker and serve as an integral part of any company which stores/manipulates data online."/>
+            android:text="You can go on to become a white or grey hat hacker and serve as an integral part of any company which stores or manipulates data online."/>
        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="What is Hacking ?\nVirus\nTrojan and Worm\nPassword Protected Folder\nGodMode\nHacking  User\nFacebook and Whatsapp Accounts\nHacking WiFi Password\nLive Editing in Web Browser\nVideo as Desktop Background."/>
+            android:text=" • What is hacking ?\n • Types of hackers\n • Malwares\n • Introduction to Kali\n • Phishing attacks\n • Darknet\n • Social engineering\n • WiFi cracking\n • Facebook and WhatsApp accounts\n • Mobile hijacking"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Vishal\nVibhor"/>
+            android:text="&#x2713; Kshitiz\n&#x2713; Rajat\n&#x2713; Akash\n&#x2713; Saransh"/>
     </LinearLayout>
 
 </ScrollView>

@@ -28,7 +28,8 @@
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
             android:layout_centerHorizontal="true"
-            android:textColor="#000"/>
+            android:textColor="#000"
+            android:maxLength="12"/>
 
         <EditText
             android:id="@+id/editText2"
@@ -60,7 +61,8 @@
             android:layout_marginRight="25dp"
             android:textColorHint="#9E9E9E"
             android:layout_below="@+id/editText2"
-            android:textColor="#000"/>
+            android:textColor="#000"
+            android:maxLength="10"/>
 
         <EditText
             android:id="@+id/editText4"
@@ -122,7 +124,7 @@
 
             <TextView
                 android:id="@+id/branch"
-                android:layout_width="80dp"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
                 android:padding="7dp"

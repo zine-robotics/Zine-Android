@@ -32,9 +32,9 @@ public class Home extends Fragment {
         lteam.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(v.getContext(),Team.class);
-                 ActivityOptionsCompat optionsCompat = ActivityOptionsCompat.makeCustomAnimation(v.getContext(),R.anim.slide,R.anim.fade);
-                 startActivity(i,optionsCompat.toBundle());
+                Intent i=new Intent(v.getContext(),TeamActivity.class);
+
+                 startActivity(i);
            }
         });
         lworkshop.setOnClickListener(new View.OnClickListener() {

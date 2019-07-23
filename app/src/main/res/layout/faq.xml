@@ -6,7 +6,9 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:background="#F5F5F5"
     android:layout_marginBottom="50dp"
-    android:paddingTop="10dp"
+    android:paddingTop="20dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
    >
 
 
@@ -26,9 +28,7 @@
                     android:layout_height="wrap_content"
                     android:text="➯ How to register for Zine Workshop ?"
                     android:textAlignment="viewStart"
-                      
                     android:textSize="16sp"
-                     
                     android:textStyle="bold"
                     android:gravity="start" />
 
@@ -40,7 +40,8 @@
                     android:text="Go to the registration desk near sports complex and get yourself registered by paying the fees. There would be offline registration for each student."
                     android:textAlignment="viewStart"
                     android:textSize="15sp"
-                    android:gravity="start" />
+                    android:gravity="start"
+                    android:textColor="@color/colorPrimaryDark"/>
                 <View
                     android:layout_width="fill_parent"
                     android:layout_height="2dip"
@@ -54,8 +55,6 @@
                     android:text="➯ What are the Workshop dates ?"
                     android:textAlignment="viewStart"
                     android:textSize="16sp"
-                     
-                      
                     android:textStyle="bold"
                     android:gravity="start" />
 
@@ -64,10 +63,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="4dp"
-                    android:text="The Workshop is scheduled to be held from 15th to 23rd September."
+                    android:text="The Workshop is scheduled to be held from 7th to 15th September."
                     android:textAlignment="viewStart"
                     android:textSize="15sp"
-                      
+                    android:textColor="@color/colorPrimaryDark"
                     android:gravity="start" />
                 <View
                     android:layout_width="fill_parent"
@@ -92,7 +91,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="4dp"
-                     
+                    android:textColor="@color/colorPrimaryDark"
                     android:text="Yes, the charge is rupees 900 per head."
                     android:textAlignment="viewStart"
                     android:textSize="15sp"
@@ -122,7 +121,8 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="4dp"
                     android:textSize="15sp"
-                    android:text="The last date of Registration is 24 August."
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="The last date of Registration is 25th August."
                     android:textAlignment="viewStart"
                       
                     android:gravity="start" />
@@ -152,7 +152,7 @@
                     android:textSize="15sp"
                     android:text="Details will be updated soon on our website, app and facebook page."
                     android:textAlignment="viewStart"
-                      
+                    android:textColor="@color/colorPrimaryDark"
                     android:gravity="start" />
                 <View
                     android:layout_width="fill_parent"
@@ -166,8 +166,6 @@
                     android:text="➯ What is the criteria to be a part of Zine Team ?"
                     android:textAlignment="viewStart"
                     android:layout_marginTop="4dp"
-                      
-                     
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:gravity="start" />
@@ -180,18 +178,13 @@
                     android:text="Post Workshop there will be an exam and a interview for shortlisted candidates."
                     android:textAlignment="viewStart"
                     android:textSize="15sp"
-                      
+                    android:textColor="@color/colorPrimaryDark"
                     android:gravity="start" />
                 <View
                     android:layout_width="fill_parent"
                     android:layout_height="2dip"
                     android:background="#546E7A"
                     android:layout_margin="8dp"/>
-
-
-
-
-
 
             </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

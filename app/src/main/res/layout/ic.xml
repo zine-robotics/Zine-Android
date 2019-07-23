@@ -28,6 +28,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="This lecture  will introduce you to IC's which are the basic elements of almost every technical device, following programmable ones."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Future Scope"
+            android:layout_marginTop="8sp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Integrated Circuits are the integral part of machines. Micro-controllers are the important part of robotics where someone can command the robot to perform the specific task depending on the environment."/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -37,7 +49,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Moore's Law\nNeed for IC\nIC Package\nNaming and Numbering of ICs\nLogic Gates\nData Sheets\nCommon ICs\n\nMCUs :\nFeatures\nArduino\nRasberry Pi"/>
+            android:text=" • Introduction\n • Integrated circuits\n • Moore's law\n • Naming of IC's\n • Manufacturing process\n • Logic gates\n • Datasheets of IC's\n • Micro controllers basics\n • Arduino\n • Raspberry Pi"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,7 +59,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Keshav\nVibhor"/>
+            android:text="&#x2713; Brijraj\n&#x2713; Vaibhav\n&#x2713; Muskan\n&#x2713; Sneha"/>
     </LinearLayout>
 
 </ScrollView>

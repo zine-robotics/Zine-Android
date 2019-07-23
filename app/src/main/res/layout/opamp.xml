@@ -27,7 +27,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Using OP-AMP for the blinking of several LED's at a time."/>
+            android:text="Control the blinking of several LED's at a time using Op-Amp."/>
 
     </LinearLayout>
 

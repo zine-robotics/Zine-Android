@@ -11,20 +11,21 @@
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/cover_pager_height"
+        android:layout_height="240dp"
         android:fitsSystemWindows="true"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
             <me.crosswall.lib.coverflow.core.LinkagePagerContainer
                 android:id="@+id/pager_container"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/cover_pager_height"
+                android:layout_height="240dp"
                 android:background="?attr/colorPrimary"
-                app:layout_behavior=".behavior.ScollBehavior">
+                app:layout_behavior=".behavior.ScrollBehavior">
 
                 <android.support.v4.view.LinkagePager
-                    android:layout_width="300dp"
-                    android:layout_height="170dp"
-                    android:layout_gravity="center" />
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="25sp"/>
 
             </me.crosswall.lib.coverflow.core.LinkagePagerContainer>
     </android.support.design.widget.AppBarLayout>

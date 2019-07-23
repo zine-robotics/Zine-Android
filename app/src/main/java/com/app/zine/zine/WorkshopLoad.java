@@ -21,7 +21,7 @@ public class WorkshopLoad extends ScrollView{
             R.layout.drive,
             R.layout.tfive,
             R.layout.arduino,
-
+            R.layout.lfr
     };
 
     int pos;

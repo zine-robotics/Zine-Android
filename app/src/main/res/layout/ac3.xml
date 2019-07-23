@@ -2,12 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/design_grad2"
+    android:background="@drawable/design_grad1"
     android:padding="10dp">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_weight="2"
+        android:layout_weight="1"
         android:layout_height="0dp">
 
         <TextView
@@ -16,7 +16,8 @@
             android:text="KSHITIJ, IIT KGP"
             android:gravity="center_horizontal"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textStyle="bold"/>
 
     </LinearLayout>
     <LinearLayout
@@ -28,8 +29,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="➯ 2017: Finalists in Semi-Autonomous Event BRICKS and Autonomous Event CONQUEST\n\n➯ 2018: 2nd in IP Event: Fortress\n\n➯ 2018: Finalists in Manual Event: Poles Apart"
-            android:textColor="#E0E0E0"
+            android:text="➯ 2019: 1st and 2nd position in Manual event ZENITH\n\n➯ 2018: 2nd in IP Event: Fortress\n\n➯ 2018: Finalists in Manual Event: Poles Apart\n\n➯ 2017: Finalists in Semi-Autonomous Event BRICKS and Autonomous Event CONQUEST"
+            android:textColor="#FFFFFF"
             android:textSize="12sp"
             />
 

@@ -85,11 +85,13 @@ public class Register extends Fragment {
                     txt1.setError("College ID empty!");
                     focusView=txt1;
                     focusView.requestFocus();
-                } else if (!((idc.length() == 11 && idc.startsWith("2019u"))||(idc.length() == 12 && idc.startsWith("2019ku")) )){
+                }
+                else if (!((idc.length() == 11 && idc.startsWith("2019u"))||(idc.length() == 12 && idc.startsWith("2019ku")) )){
                     txt1.setError("College ID incorrect!");
                     focusView=txt1;
                     focusView.requestFocus();
-                } else if (name.isEmpty()) {
+                }
+                else if (name.isEmpty()) {
                     txt2.setError("Name empty!");
                     focusView=txt2;
                     focusView.requestFocus();

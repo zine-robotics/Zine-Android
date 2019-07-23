@@ -16,9 +16,23 @@ import me.crosswall.lib.coverflow.core.LinkagePagerContainer;
 import me.crosswall.lib.coverflow.core.PageItemClickListener;
 
 public class Workshop extends AppCompatActivity {
-    public static int[] covers = {R.mipmap.mech,R.mipmap.aero,R.mipmap.matlab,R.mipmap.web,
-            R.mipmap.algo,R.mipmap.ic1,R.mipmap.sensor,R.mipmap.elec,R.mipmap.hack,R.mipmap.android,R.mipmap.op,R.mipmap.drive,R.mipmap.timer,R.mipmap.arduino,};
-
+    public static int[] covers = {
+            R.mipmap.mech,
+            R.mipmap.aero,
+            R.mipmap.matlab,
+            R.mipmap.web,
+            R.mipmap.algo,
+            R.mipmap.ic1,
+            R.mipmap.sensor,
+            R.mipmap.elec,
+            R.mipmap.hack,
+            R.mipmap.android,
+            R.mipmap.op,
+            R.mipmap.drive,
+            R.mipmap.timer,
+            R.mipmap.arduino,
+            R.mipmap.lfr
+    };
     private LinkagePager pager;
 
     @Override

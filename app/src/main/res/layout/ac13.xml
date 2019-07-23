@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/design_grad5"
+    android:background="@drawable/design_grad2"
     android:padding="10dp">
     <LinearLayout
         android:orientation="vertical"
@@ -14,10 +14,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:text="JECRC, Jaipur"
+            android:text="JECRC College, Jaipur"
             android:textColor="#FFFFFF"
             android:gravity="center_horizontal"
-            />
+            android:textStyle="bold"/>
 
 
     </LinearLayout>
@@ -30,8 +30,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_horizontal"
-            android:text="➯ 1st Place in Drone Racing Championship\n\n➯ 1st Place in Drone TechX"
-            android:textColor="#E0E0E0"
+            android:text="➯ 2019: 1st and 3rd place in Game of Drones\n\n➯ 2018: 1st Place in Drone Racing Championship"
+            android:textColor="#FFFFFF"
             android:textSize="12sp"
             />
     </LinearLayout>

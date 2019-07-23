@@ -31,6 +31,7 @@
 
 
         <activity android:name=".SplashActivity"
+            android:configChanges="orientation|keyboardHidden"
             android:theme="@style/AppTheme.NoActionBar1"
             >
             <intent-filter>
@@ -42,39 +43,35 @@
 
         <activity
             android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
-        <activity
-            android:name=".Second"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Third"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Fourth"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Team"
-            android:theme="@style/mydialog" />
+
         <activity
             android:name=".InfoActivity"
+            android:configChanges="orientation|keyboardHidden"
             android:label="@string/title_activity_info"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity android:name=".Workshop"
+            android:configChanges="orientation|keyboardHidden"
             android:label="@string/workshop"
             />
         <activity android:name=".Achievements"
+            android:configChanges="orientation|keyboardHidden"
             android:label="@string/achievements"
             android:theme="@style/AppTheme.NoActionBar"
             />
 
         <activity android:name=".Project"
+            android:configChanges="orientation|keyboardHidden"
             android:label="@string/projects"
             />
-
+        <activity android:name=".TeamActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/AppTheme.NoActionBar"/>
 
 
         <service android:name=".MyFirebaseMessagingService">

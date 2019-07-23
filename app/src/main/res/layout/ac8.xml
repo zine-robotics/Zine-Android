@@ -17,7 +17,7 @@
             android:text="Preventative Gear Maintainance"
             android:textColor="#FFFFFF"
             android:gravity="center_horizontal"
-            />
+            android:textStyle="bold"/>
 
 
     </LinearLayout>
@@ -31,7 +31,7 @@
             android:layout_height="match_parent"
             android:gravity="center_horizontal"
             android:text="➯ Filed for Patent\n\n➯ Nomainated for Best Innovation Award\n\n➯ Team: Satvik Shah, Vaibhav Jain, Sanjay Thakur"
-            android:textColor="#E0E0E0"
+            android:textColor="#FFFFFF"
             android:textSize="12sp"
             />
     </LinearLayout>

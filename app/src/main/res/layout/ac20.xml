@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/design_grad1"
+    android:padding="10dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Indian Drone Racing League"
+            android:textColor="#FFFFFF"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="➯ Season 13: 3rd place in Pro Class Race and 1st place in Beginner Class Race\n\n
+➯ Season 14: 1st place in Pro Class Race\n\n➯ Season 17: 3rd place in Pro Class Race\n\n
+➯ Season 19: 2nd place in Pro Class Race"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

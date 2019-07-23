@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -25,15 +26,14 @@
 
 
 
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:paddingEnd="15dp"
-            android:elevation="4dp"
             android:paddingStart="0dp"
-
-            android:orientation="horizontal"
             >
 
 
@@ -43,8 +43,7 @@
             <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="65dp"
                 android:layout_height="65dp"
-                android:src="@drawable/tanishk"
-
+                android:src="@drawable/nikita"
                 />
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -54,11 +53,11 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="25sp"
+                    android:textSize="20sp"
                     android:layout_gravity="center_vertical"
                     android:paddingStart="8dp"
                     android:paddingEnd="8dp"
-                    android:text="@string/tanishk"/>
+                    android:text="Nikita Routela"/>
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -72,7 +71,99 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/tno"
+                        android:text="8941078579"
+                        android:textIsSelectable="true"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    app:cardCornerRadius="25dp"
+                    android:id="@+id/nikita"
+
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <ImageView
+                        android:contentDescription="@string/call"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_call_black_24dp"
+                        android:scaleType="center"/>
+                </android.support.v7.widget.CardView>
+
+                <!--<de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_call_black_24dp"
+                    android:clickable="true"
+                    android:id="@+id/vishal"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                    />-->
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_margin="8dp"
+            android:background="#E0E0E0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:paddingEnd="15dp"
+            android:elevation="4dp"
+            android:paddingStart="0dp"
+            android:orientation="horizontal"
+            >
+
+
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/bhanu"
+
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="center_vertical"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:text="Bhanu Mohindra"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="8dp"
+                        android:paddingEnd="8dp"
+                        android:text="@string/mno1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7625803158"
                         android:textIsSelectable="true"/>
                 </LinearLayout>
 
@@ -90,7 +181,7 @@
                     android:layout_height="50dp"
                     android:layout_gravity="center_vertical"
                     app:cardCornerRadius="25dp"
-                    android:id="@+id/tanishk"
+                    android:id="@+id/bhanu"
                     android:foreground="?android:attr/selectableItemBackground"
                     >
 
@@ -117,7 +208,10 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:paddingEnd="15dp"
+            android:elevation="4dp"
             android:paddingStart="0dp"
+
+            android:orientation="horizontal"
             >
 
 
@@ -128,6 +222,7 @@
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:src="@drawable/vish"
+
                 />
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -137,11 +232,11 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="25sp"
+                    android:textSize="20sp"
                     android:layout_gravity="center_vertical"
                     android:paddingStart="8dp"
                     android:paddingEnd="8dp"
-                    android:text="@string/vishal"/>
+                    android:text="Vishal Kothari"/>
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -155,9 +250,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/vno"
+                        android:text="9909435279"
                         android:textIsSelectable="true"/>
                 </LinearLayout>
+
+
             </LinearLayout>
 
             <LinearLayout
@@ -172,8 +269,8 @@
                     android:layout_gravity="center_vertical"
                     app:cardCornerRadius="25dp"
                     android:id="@+id/vishal"
-
-                    android:foreground="?android:attr/selectableItemBackground">
+                    android:foreground="?android:attr/selectableItemBackground"
+                    >
 
                     <ImageView
                         android:contentDescription="@string/call"
@@ -183,16 +280,7 @@
                         android:scaleType="center"/>
                 </android.support.v7.widget.CardView>
 
-                <!--<de.hdodenhof.circleimageview.CircleImageView
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_gravity="center_vertical"
-                    android:src="@drawable/ic_call_black_24dp"
-                    android:clickable="true"
-                    android:id="@+id/vishal"
-                    android:focusable="true"
-                    android:foreground="?android:attr/selectableItemBackgroundBorderless"
-                    />-->
+
             </LinearLayout>
         </LinearLayout>
         <View
@@ -230,11 +318,11 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="25sp"
+                    android:textSize="20sp"
                     android:layout_gravity="center_vertical"
                     android:paddingStart="8dp"
                     android:paddingEnd="8dp"
-                    android:text="@string/dev"/>
+                    android:text="Devnath Nair"/>
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -248,7 +336,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/devno"
+                        android:text="9636080788"
                         android:textIsSelectable="true"/>
                 </LinearLayout>
 
@@ -267,92 +355,6 @@
                     android:layout_gravity="center_vertical"
                     app:cardCornerRadius="25dp"
                     android:id="@+id/devnath"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    >
-
-                    <ImageView
-                        android:contentDescription="@string/call"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/ic_call_black_24dp"
-                        android:scaleType="center"/>
-                </android.support.v7.widget.CardView>
-
-
-            </LinearLayout>
-        </LinearLayout>
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="2dip"
-            android:layout_margin="8dp"
-            android:background="#E0E0E0" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            android:paddingEnd="15dp"
-            android:elevation="4dp"
-            android:paddingStart="0dp"
-
-            android:orientation="horizontal"
-            >
-
-
-
-
-
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:layout_width="65dp"
-                android:layout_height="65dp"
-                android:src="@drawable/kriti"
-
-                />
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="25sp"
-                    android:layout_gravity="center_vertical"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="8dp"
-                    android:text="@string/kriti_name"/>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingStart="8dp"
-                        android:paddingEnd="8dp"
-                        android:text="@string/mno1"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/kriti"
-                        android:textIsSelectable="true"/>
-                </LinearLayout>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="end"
-                >
-
-                <android.support.v7.widget.CardView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="center_vertical"
-                    app:cardCornerRadius="25dp"
-                    android:id="@+id/kriti"
                     android:foreground="?android:attr/selectableItemBackground"
                     >
 

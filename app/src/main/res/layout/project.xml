@@ -28,12 +28,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="?attr/colorPrimary"
-            app:layout_behavior=".behavior.ScollBehavior">
+            app:layout_behavior=".behavior.ScrollBehavior">
 
             <android.support.v4.view.LinkagePager
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center" />
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
 
         </me.crosswall.lib.coverflow.core.LinkagePagerContainer>
     </android.support.design.widget.AppBarLayout>
@@ -43,7 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="vertical"
-        android:layout_weight="1"
+        android:layout_weight="8"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         >
 
@@ -54,7 +56,6 @@
             android:layout_gravity="center" />
 
     </LinearLayout>
-
 
 </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>

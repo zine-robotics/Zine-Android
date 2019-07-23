@@ -80,7 +80,7 @@ public class Query extends Fragment{
                 focusView=txt1;
                 focusView.requestFocus();
             }
-            else if (!((idc.length() == 11 && (idc.startsWith("2018u")||idc.startsWith("2017u")))||(idc.length() == 12 && (idc.startsWith("2018ku")||idc.startsWith("2017ku"))) )) {
+            else if (!((idc.length() == 11 && idc.startsWith("2019u"))||(idc.length() == 12 && idc.startsWith("2019ku")) )) {
 
                 txt1.setError("College ID incorrect");
                 focusView=txt1;

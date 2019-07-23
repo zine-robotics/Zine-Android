@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prosthetics Arm"
+            android:textSize="35sp"
+            android:textColor="#424242"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Making an artificial arm for the amputed and maimed persons controlled by muscle signals to grab and lift objects. This is an extremely useful project for physically disabled.We are currently working on the signal extraction from muscles."
+            android:layout_margin="20sp"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</ScrollView>

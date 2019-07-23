@@ -13,8 +13,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Algo and Pseudocodes"
-            android:textSize="30sp"
+            android:text="Algo and Pseudocode"
+            android:textSize="35sp"
             android:textColor="#424242"
             android:textStyle="bold"
             android:gravity="center_horizontal"/>
@@ -27,7 +27,18 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="This lecture aims at teaching the basics of computer programming and fundamentals of programming of Arduino and Rasberry Pi."/>
+            android:text="This lecture aims at teaching the basics of computer programming and fundamentals of programming of Arduino"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Future Scope"
+            android:layout_marginTop="8sp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Computer programming is part of technological development. The coders around the world are highly paid. A simple algorithm can help you deal with some really complex problems."/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -37,7 +48,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Introduction to Programming Languages\nBasics of C Programming :\nVariables\nConstants\nKeywords\nData Types\nOperators\nLoops\nDecision Making Statements\nFunctions\nArrays\nIntroduction to Arduino\nIntroduction of Rasberry Pi."/>        <TextView
+            android:text=" • Data and information\n • Algorithms\n • Pseudo code\n • Programming language\n • Variables and constants\n • Operators\n • Decision statements\n • Loops\n • Functions\n • Introduction to Arduino"/>
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
@@ -46,7 +59,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tanishk\nKeshav"/>
+            android:text="&#x2713; Dhruv\n&#x2713; Akash\n&#x2713; Kshitiz"/>
     </LinearLayout>
 
 </ScrollView>

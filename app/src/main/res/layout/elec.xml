@@ -13,7 +13,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Electronics"
+            android:text="Basic Electrical and Electronics"
             android:textSize="35sp"
             android:textColor="#424242"
             android:textStyle="bold"
@@ -27,7 +27,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="This session is aimed to teach students the basics of electronics."/>
+            android:text="This session is aimed to teach students the basics of electrical and electronics."/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Electronics are widely used nowadays from a torch to the Smartphones. You will be able to identify and use the basic electronic components. The Electronics is going to be very vital in your life in the future."/>
+            android:text="Electronics are widely used nowadays from a torch to the Smartphones. You will be able to identify and use the basic electronic components. The Electronics is going to be very vital in your life in the future. The world is incomplete without electricity and hence the basic knowledge of electrical is necessary."/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Intro to electronic components\nWires and Connectors\nCircuid Boards\nTransistors\nDiodes\nH-Bridge\nBatteries"/>
+            android:text=" • Electrical and electronics basics\n • Circuit components\n • Rectifier\n • Switches and relays\n • Transformers\n • Wires and connectors\n • Circuit boards\n • Batteries\n • Multimeter"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Paarth\nTanmay"/>
+            android:text="&#x2713; Rajat\n&#x2713; Sneha\n&#x2713; Saransh"/>
     </LinearLayout>
 
 </ScrollView>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Autonomous Quadcopter"
+            android:textSize="35sp"
+            android:textColor="#424242"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our idea is to design the quadcopter that when left in unknown terrains can give us live video stream on our laptops and also store it according to the need. These quad copters can be sent in evacuated buildings and in bio-chemical factories to act as first respondents."
+            android:layout_margin="20sp"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</ScrollView>

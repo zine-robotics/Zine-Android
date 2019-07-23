@@ -42,13 +42,24 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"
+            android:text="Topics Include"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" • What is website?\n • Frontend development\n • Introduction to HTML\n • Different HTML tags\n • Styling using CSS\n • Developing an interactive website "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:textSize="20sp"
             android:layout_marginTop="8dp"
             android:text="Members" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tanishk\nAkarth"/>
+            android:text="&#x2713; Rajat\n&#x2713; Dhruv\n&#x2713; Muskan\n&#x2713; Kshitiz"/>
     </LinearLayout>
 
 </ScrollView>

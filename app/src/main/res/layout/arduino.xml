@@ -27,7 +27,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lets use the most used MicroController for the Robotics and make a Ultrasonic Sensor work according to your instructions."/>
+            android:text="Lets use the most used MicroController for the Robotics and make different sensors work according to your instructions."/>
 
     </LinearLayout>
 

@@ -48,7 +48,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Introduction to Sensors\nSpecification of different Sensors\nTypes of Sensors\nApplications"/>
+            android:text=" • Introduction to Sensors\n • Specification of different Sensors\n • Types of Sensors\n • Applications"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tanmay\nVibhor"/>
+            android:text="&#x2713; Harsh\n&#x2713; Brijraj\n&#x2713; Vaibhav"/>
     </LinearLayout>
 
 </ScrollView>

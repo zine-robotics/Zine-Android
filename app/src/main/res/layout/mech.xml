@@ -27,7 +27,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="This lecture aims at providing enough knowledge to build a Mechanically feasible design of a bot."/>
+        android:text="This lecture aims at providing enough knowledge to build a mechanically feasible design of a bot."/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="After attending this, you will be able to use various types of gears, will know their mechanism of working, and from then you will see the world with a new perspective of mechanics."/>
+        android:text="After attending this, you will be able to use various types of mechanical tools, will know their mechanism of working, and from then you will see the world with a new perspective of mechanics."/>
 
     <TextView
         android:layout_width="match_parent"
@@ -48,7 +48,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Mechanical Tools\nActuators\nSteering Mechanisms\nTypes of Wheels\nPower Transmission\nDesigning Softwares"/>
+        android:text=" • Introduction\n • Mechanical tools\n • Actuators\n • Motors\n • Wheels\n • Drives\n • Gears and gear trains\n • 3D Printing"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tanishk\nAkarth"/>
+        android:text="&#x2713; Nikita\n&#x2713; Bhanu\n&#x2713; Pravesh"/>
     </LinearLayout>
 
 </ScrollView>
