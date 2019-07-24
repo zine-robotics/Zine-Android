@@ -30,9 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_horizontal"
-            android:text="➯ Season 13: 3rd place in Pro Class Race and 1st place in Beginner Class Race\n\n
-➯ Season 14: 1st place in Pro Class Race\n\n➯ Season 17: 3rd place in Pro Class Race\n\n
-➯ Season 19: 2nd place in Pro Class Race"
+            android:text="➯ IDRL 19: 2nd place in Pro Class Race\n\n➯ IDRL 17: 3rd place in Pro Class Race\n\n➯ IDRL 14: 1st place in Pro Class Race\n\n➯ IDRL 13: 3rd place in Pro Class Race and 1st place in Beginner Class Race"
             android:textColor="#FFFFFF"
             android:textSize="12sp"
             />

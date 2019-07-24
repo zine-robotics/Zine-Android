@@ -57,7 +57,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="&#x2713; Akash\n&#x2713; Charu\n&#x2713; Harsh"/>
+            android:text=" • Akash\n • Charu\n • Harsh"/>
     </LinearLayout>
 
 </ScrollView>

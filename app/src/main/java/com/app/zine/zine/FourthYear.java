@@ -20,7 +20,7 @@ public class FourthYear extends Fragment {
     Integer[] imageid={
 
             R.drawable.devnath,
-            R.drawable.nimesh,
+            R.drawable.nim,
             R.drawable.vikalp,
     };
 
